@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Css Animation</title>
+	<style>
+		body
+		{
+/*			background-color: limegreen;*/
+						background-image: url("https://wallpaperaccess.com/full/1660311.jpg");
+						background-size: cover;
+
+		}
+		div
+		{
+			color: red;
+			background-image: url("https://m.media-amazon.com/images/I/51D6MA79EZL._SX425_.jpg");
+			width: 150px;
+			height: 150px;
+			background-size: cover;
+			position: relative;
+			animation: ani 2s linear 0s infinite normal;
+			border-radius: 100%;
+		}
+
+		
+		@keyframes ani
+		{
+			0%
+			{
+				top: 50px;
+				left: 0px;
+			}
+			16%
+			{
+				top: 0px;
+				left: 150px;
+			}
+			32%
+			{
+				top:350px;
+				left: 300px;
+			}
+			48%
+			{
+				top: 0px;
+				left: 450px;
+			}
+			64%
+			{
+				top:350px;
+				left: 600px;
+			}
+			70%
+			{
+				top: 350px;
+				left: 900px;
+			}
+			80%
+			{
+				top:0px;
+				left:750px;
+			}
+			100%
+			{
+				top:200px;
+				left: 1500px;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+</div>
+	
+</body>
+</html>

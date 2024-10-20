@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form example</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            width: fit-content;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+            width: 600px;
+            height: 500px;
+            display: flex;
+            display: inline-block;
+            top: 300px;
+            left: 100px;
+            background: linear-gradient(180deg,lightblue,purple, white,green,yellow);
+            border: 2px solid black;
+
+
+
+        }
+        fieldset{
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        label{
+            display: inline-block;
+            padding: 2pxpx;
+            margin: 4px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="text">Frist Name</label>
+            <input type="text">(max 50characters allowed)
+            <br>
+            <label for="text">Last Name</label>
+            <input type="text">(max 50characters allowed)
+            <br>
+            <label for="abc@gmail">Email ID</label>
+            <input id="">
+            <br>
+            <label for="text">mobile Numder</label>
+            <input type="10digits number">(10 digits allowed)
+            <br>
+            <label >Gender</label>
+            <input type="radio">male
+            <input type="radio">female
+            <br>
+            <label for="DOB">Date Of Birth</label>
+            <input type="date"><br>
+            <label >Address</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <label >city</label>
+            <input type="text" id="">(max 50characters allowed)
+            <br>
+            <label for="number">Pincode</label>
+            <input id="">(max6number allowed)
+            <br>
+            <label for="text">State</label>
+            <input id="">(max 50characters allowed)
+            <br>
+            <label for="text">country</label>
+            <input type="text" placeholder="INDIA"><br>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

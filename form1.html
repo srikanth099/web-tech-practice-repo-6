@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title> form</title>
+     <style>
+        body{
+            width:fit-content ;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            align-items: center;
+        }
+        form{
+            padding: 10px;
+            margin: 10px;
+            position: relative;
+            top: 200px;
+            left: 100px;
+            background: cyan;
+            border-radius: 20px;
+            width: fit-content;
+
+        }
+        fieldset{
+            border: 2px solid  red;
+            padding: 20px 30px 20px 30px ;
+            margin:20px 30px 20px 30px ;
+        }
+        input{
+            margin: 2px;
+            padding: 2px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .button{
+            background:green ;
+            font-size: 16px;
+            border: 5px double darkorange;
+            width: 100px;
+            height: 10px;
+            padding: 5px;
+            
+        }
+        div{
+            width: 350px;
+            height: 350px;
+            background:linear-gradient(90deg,darkred,darkblue,lightyellow,orange,green) ;
+            border: 3px double darkorchid;
+        }
+        .form{
+            transition: 1s;
+            animation: form 5s linear infinite alternate ease;
+            transform: translate(-100px,100px);
+            transform: rotate(3600deg, -36000deg);
+            transform: scale(100px,100px);
+            transform: skew(3600deg,3600deg);
+            @keyframes form{
+                from{
+                    transform: translate(-100px,100px);
+                    transform: rotate(3600deg, -36000deg);
+
+                }
+                to{
+                    transform: translate(-100px,100px);
+                    transform: rotate(3600deg, -36000deg);
+                }
+            }
+        }
+
+    
+        
+
+     </style>
+</head>
+<body>
+    <form action="form">
+        <fieldset>
+            <div class="form">
+            <h1>HTML FORM</h1> <hr>
+            <label > EMAIL OR USERNAME</label><br>
+            <input type="text"><br>
+            <label >PASSWORD</label><br>
+            <input type="password"><br>
+            <label> LOGIN</label><br>
+            <input id="button" value="LOGIN"><br>
+            <label>SIGN-IN</label><br>
+            <input class="button" value="SIGN-IN"><br>
+            <label>SIGN-UP</label><br>
+            <input class="button" value="SIGN-UP"><br>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
